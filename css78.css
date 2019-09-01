@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 70px;
+  background-color: grey;
+  color: white;
+}
+
+h2 {
+  display: inline-block;
+  margin: 20px 150px;
+}
+
+.link {
+  float: right;
+  margin-right: 130px;
+}
+
+.picshow {
+  height: 250px;
+  background-color: green;
+  position: relative;
+}
+
+.picNum {
+  display: inline-block;
+  border: 1px solid red;
+  width: 20px;
+  /* text-align: center; */
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.picNum:nth-child(2) {
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pic-Num-list {
+  position:absolute;
+  right: 120px;
+  bottom: 5px;
+  text-align: center;
+}
+
+.navlist , section , .main-content {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.navlist a {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 8px 8px 8px 0;
+  line-height: 15px;
+}
+
+.navlist a + a {
+  background-color: red;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 220px;
+  height: 120px;
+  background-color: aqua;
+  border: 1px solid red;
+  padding: 5px;
+  margin: 5px;
+}
+
+#content-row-end article:last-child {
+  flex: 170px;
+}
+
+.main-content {
+  overflow: hidden;
+  /* width: 700px;
+  margin: 0 auto; */
+}
+
+.main-content .content2 {
+  float: left;
+  width: 153px;
+  margin: 5px;
+  padding: 5px;
+  height: 120px;
+  background-color: aqua;
+  border: 1px solid red;
+}
+
+.footer {
+  height: 100px;
+  background-color: grey;
+  text-align: center;
+}
